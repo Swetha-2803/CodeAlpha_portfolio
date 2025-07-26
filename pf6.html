@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swetha | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00c6ff;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #00c6ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #1f1f1f;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00c6ff;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #00c6ff;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #00c6ff;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-weight: bold;
+      background: linear-gradient(to right, #0077ff, #00c6ff);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .resume-btn:hover {
+      background: linear-gradient(to right, #0052cc, #0099cc);
+      transform: scale(1.05);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    ul li::before {
+      content: "🔹 ";
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Swetha</h1>
+    <p>Frontend Developer | Tech Enthusiast | Content Creator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="suvi.jpg.jpg" alt="Swetha Profile" class="profile-pic" />
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Swetha</strong>, a passionate and ambitious B.Tech IT student from Coimbatore. I specialize in <strong>frontend development</strong> with skills in <strong>HTML, CSS, JavaScript, Python, and PHP</strong>. I'm also a content creator who enjoys making engaging WhatsApp status videos on YouTube.</p>
+    <p>I love exploring creative ideas, solving problems, and working on real-world projects like quiz apps, chatbots, and music apps. Apart from tech, I enjoy <strong>traveling</strong>, <strong>acting</strong>, and continuously learning through experience.</p>
+    <p>My goal is to grow into a confident, skilled developer ready to take on exciting opportunities in <strong>web development</strong> and <strong>social media marketing</strong>.</p>
+    <a href="Swetha_Resume.pdf" download>
+      <button class="resume-btn">📄 Download Resume</button>
+    </a>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>Python and PHP programming</li>
+      <li>Responsive Web Design</li>
+      <li>Frontend Frameworks (Bootstrap)</li>
+      <li>Git & GitHub</li>
+      <li>Basic Database Knowledge (MySQL)</li>
+      <li>Content Creation & Editing</li>
+      <li>Team Collaboration & Project Management</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🎮 Multi-category Quiz App with Login, Profile Picture, Timer, and Review System</li>
+      <li>🎵 Stylish Music App</li>
+      <li>🤖 Chatbot with Event Handling</li>
+      <li>🛒 Responsive E-commerce Homepage (Mini Project)</li>
+      <li>📝 Personal Portfolio Website (This Project)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: swethasuvi2503@gmail.com</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/swetha-p-420b152b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+  </section>
+</body>
+
+</html>
